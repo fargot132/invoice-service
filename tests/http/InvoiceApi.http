@@ -1,0 +1,11 @@
+###
+GET http://localhost/api/invoices/{{invoiceId}}
+Accept: application/json
+
+###
+PATCH http://localhost/api/invoices/{{invoiceId}}/approve
+Accept: application/json
+
+###
+PATCH http://localhost/api/invoices/{{invoiceId}}/reject
+Accept: application/json

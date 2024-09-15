@@ -1,0 +1,3 @@
+###
+GET http://localhost/api/companies/{{companyId}}
+Accept: application/json
